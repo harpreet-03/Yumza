@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">Yumza</string>
 
-    <string name="app_descc">Welcome to Yumza! Your go-to app for delicious pizzas and meals, freshly made and delivered right to your doorstep. Satisfy your cravings with just a few taps!</string>
     <string name="button_text_main">Get Started🍴</string>
     <string name="yumza">Yumza</string>
+    <string name="app_desc">Discover the best dishes, anytime, anywhere. Let\'s make you cravings unforgettable.</string>
+    <string name="login_desc">Your next delicious adventure awaits. Log in now to uncover a world of irresistible flavors and mouthwatering delights.</string>
+    <string name="welcome_back_foodie">Welcome Back, Foodie!</string>
 </resources>
