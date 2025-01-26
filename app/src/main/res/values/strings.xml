@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Yumza</string>
+
+    <string name="app_descc">Welcome to Yumza! Your go-to app for delicious pizzas and meals, freshly made and delivered right to your doorstep. Satisfy your cravings with just a few taps!</string>
+    <string name="button_text_main">Get Started🍴</string>
+    <string name="yumza">Yumza</string>
+</resources>
