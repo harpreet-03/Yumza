@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Yumza</string>
-
     <string name="button_text_main">Get Started🍴</string>
     <string name="yumza">Yumza</string>
     <string name="app_desc">Discover the best dishes, anytime, anywhere. Let\'s make you cravings unforgettable.</string>

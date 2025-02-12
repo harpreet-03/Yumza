@@ -5,6 +5,181 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/main_background"
     tools:context=".Signup">
+
+<ImageView
+    android:layout_width="210dp"
+    android:layout_height="202dp"
+    android:src="@drawable/second"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.95"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.071" />
+
+    <TextView
+        android:layout_width="167dp"
+        android:layout_height="120dp"
+        android:fontFamily="@font/rozha"
+        android:text="Join the feast!"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <TextView
+        android:id="@+id/signup_desc"
+        android:layout_width="384dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/rozha"
+        android:gravity="start"
+        android:text="Signup and explore the world of flavors"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.324" />
+
+    <EditText
+        android:id="@+id/signup_name"
+        android:layout_width="389dp"
+        android:layout_height="66dp"
+        android:background="@drawable/edittext_login"
+        android:fontFamily="@font/rozha"
+        android:hint="  Enter your name"
+        android:inputType="textEmailAddress"
+        android:paddingStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.388" />
+
+    <EditText
+        android:id="@+id/signup_email"
+        android:layout_width="389dp"
+        android:layout_height="66dp"
+        android:background="@drawable/edittext_login"
+        android:fontFamily="@font/rozha"
+        android:hint="  Enter your email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.489" />
+
+    <EditText
+        android:id="@+id/signup_pass"
+        android:layout_width="389dp"
+        android:layout_height="66dp"
+        android:background="@drawable/edittext_login"
+        android:fontFamily="@font/rozha"
+        android:hint="  Enter your password"
+        android:inputType="textPassword"
+        android:paddingStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.593" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="378dp"
+        android:layout_height="72dp"
+        android:backgroundTint="#A64326"
+        android:fontFamily="@font/rozha"
+        android:text="Signup"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.722" />
+
+    <TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="17dp"
+    android:text="or continue with"
+    android:fontFamily="@font/rozha"
+    android:textSize="15sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="@+id/button2"
+    app:layout_constraintHorizontal_bias="0.482"
+    app:layout_constraintStart_toStartOf="@+id/button2"
+    app:layout_constraintTop_toBottomOf="@+id/button2"
+    app:layout_constraintVertical_bias="0.0" />
+
+<ImageView
+
+    android:id="@+id/apple2"
+    android:layout_width="81dp"
+    android:layout_height="71dp"
+    android:layout_marginTop="9dp"
+    android:layout_marginEnd="128dp"
+    android:src="@drawable/apple"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView2"
+    app:layout_constraintVertical_bias="0.128" />
+
+<ImageView
+    android:id="@+id/google2"
+    android:layout_width="81dp"
+    android:layout_height="71dp"
+    android:layout_marginStart="128dp"
+    android:layout_marginTop="9dp"
+    android:src="@drawable/google"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView2"
+    app:layout_constraintVertical_bias="0.128" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:fontFamily="@font/rozha"
+        android:text="Already have an account? "
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/google2"
+        app:layout_constraintVertical_bias="0.325" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="76dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/rozha"
+        android:onClick="onSignupClick"
+        android:text="Log in here!"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/apple2"
+        app:layout_constraintVertical_bias="0.325" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
